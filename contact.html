@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AshTech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/897f72812c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="new-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="clientel1.html">Clients</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section> 
+
+
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.448016614679!2d76.91621551656498!3d11.011442550677438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba858d532c5d805%3A0x4cfaa897d2c8d161!2zMTHCsDAwJzQ5LjUiTiA3NsKwNTUnMDUuOCJF!5e0!3m2!1sen!2sin!4v1621666590684!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-compass"></i>
+                    <span>
+                        <h5>8, Rangaswami Nagar,</h5>
+                        <p>Coimbatore , Tamil Nadu , IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+91 9597452086</h5>
+                        <p>Monday to Saturday , 10 AM to 6 PM (IST)</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope-open-text"></i>
+                    <span>
+                        <h5>aw1728@gmail.com</h5>
+                        <p>email us for queries</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="fornhandler.php" method="POST">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="Email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="service" placeholder="What service are you looking for?" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="h-btn r-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    
+  
+
+
+    <!----Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>AshTech is a small scale web developing firm serving clients in and around Coimbatore, Tamil Nadu. <br>During the years that we serve , we have earnd a good will among the beloved coimbatore people.</p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>   
+        <p>Made With <i class="far fa-heart"></i> by Ashwin Ravichandran</p>   
+    </section>
+
+
+    <!---- java script ------> 
+    <script>
+        var navLink = document.getElementById("navlinks");
+
+        function showmenu(){
+            navLink.style.right="0";
+        }
+        function hidemenu(){
+            navLink.style.right="-200px";
+        }
+
+    </script>
+    
+</body>
+</html>

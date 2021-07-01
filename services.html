@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AshTech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/897f72812c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="new-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="clientel1.html">Clients</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section> 
+
+    <section class="services">
+        <h1>Tech Services That We Offer</h1>
+        <p>Following are the servicest that we offer professionally</p>
+        <div class="row">
+            <div class="service-col">
+                <h3><i class="fas fa-laptop"></i>Web Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem provident perferendis aliquid ad sed a dolores. Commodi, esse nemo!</p>
+            </div>
+            <div class="service-col">
+                <h3> <i class="fas fa-globe"></i>SEO services</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem provident perferendis aliquid ad sed a dolores. Commodi, esse nemo!</p>
+            </div>
+            <div class="service-col">
+                <h3><i class="fas fa-mobile-alt"></i>App Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem provident perferendis aliquid ad sed a dolores. Commodi, esse nemo!</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="clientel">
+        <h1>Our Client Approach</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus mollitia quo iste facilis sit eligendi.</p>
+        <div class="row">
+            <div class="client-col">
+                <img src="images/client.jpg" >
+                <div class="layer">
+                    <h3>Direct Client Meeting</h3>
+                </div>
+            </div>
+            <div class="client-col">
+                <img src="images/develop.jpg" >
+                <div class="layer">
+                    <h3>Development Phase</h3>
+                </div>
+            </div>
+            <div class="client-col">
+                <img src="images/meeting.jpg" >
+                <div class="layer">
+                    <h3>Client Review</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    
+
+
+  
+
+
+    <!----Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>AshTech is a small scale web developing firm serving clients in and around Coimbatore, Tamil Nadu. <br>During the years that we serve , we have earnd a good will among the beloved coimbatore people.</p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>   
+        <p>Made With <i class="far fa-heart"></i> by Ashwin Ravichandran</p>   
+    </section>
+
+
+    <!---- java script ------> 
+    <script>
+        var navLink = document.getElementById("navlinks");
+
+        function showmenu(){
+            navLink.style.right="0";
+        }
+        function hidemenu(){
+            navLink.style.right="-200px";
+        }
+
+    </script>
+    
+</body>
+</html>

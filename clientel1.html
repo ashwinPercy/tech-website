@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AshTech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/897f72812c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="new-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="clientel1.html">Clients</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Clients </h1>
+    </section> 
+
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/brand.jpg">
+                <h2>Our beloved clients so far</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugiat delectus possimus modi quod. Ea, dolorem obcaecati expedita dolorum sint ipsam accusantium eaque hic officiis eveniet ullam, optio ex sequi nulla omnis voluptatum ducimus tempora. Quibusdam modi doloremque enim deserunt sit animi, distinctio laborum alias maiores ducimus, vel, dignissimos vero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque deleniti praesentium perferendis nemo voluptas ut possimus soluta tempore qui quod molestiae quam officia et sit, ipsam hic minus dolorum. Laudantium praesentium maiores, in maxime unde doloribus ratione fuga mollitia facere sequi sit, inventore perspiciatis.</p>
+                
+                <div class="comment">
+                    <h3>Leave A Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="h-btn r-btn">Post Comment</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Our Major clients</h3>
+                <div>
+                    <span>GoldenDelight bakehouse</span>
+                    <span>SEO</span>
+                </div>
+                <div>
+                    <span>Unit-Division Studios</span>
+                    <span>webpage</span>
+                </div>
+                <div>
+                    <span>Prazzy Edogawa</span>
+                    <span>Mobile App</span>
+                </div>
+                <div>
+                    <span>Budapest Bakehouse</span>
+                    <span>E-commerce </span>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+
+
+
+    </section>
+    
+    
+
+
+  
+
+
+    <!----Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>AshTech is a small scale web developing firm serving clients in and around Coimbatore, Tamil Nadu. <br>During the years that we serve , we have earnd a good will among the beloved coimbatore people.</p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>   
+        <p>Made With <i class="far fa-heart"></i> by Ashwin Ravichandran</p>   
+    </section>
+
+
+    <!---- java script ------> 
+    <script>
+        var navLink = document.getElementById("navlinks");
+
+        function showmenu(){
+            navLink.style.right="0";
+        }
+        function hidemenu(){
+            navLink.style.right="-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
